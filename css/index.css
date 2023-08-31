@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Orbitron:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #666;
+}
+
+aside {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+nav,
+nav ul {
+  height: 100%;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  transform: rotate(-90deg);
+}
+
+nav a {
+  color: #000000;
+}
+
+main {
+  width: 80%;
+  left: 20%;
+  position: relative;
+}
+
+img {
+  height: 100vh;
+}
+
+article,
+footer {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  width: 100%;
+  margin: 50px;
+  position: sticky;
+  top: 0;
+}
+
+.main-text h2 {
+  text-align: right;
+}
+
+.main-text p {
+  text-align: justify;
+}
+
+footer {
+  justify-content: space-evenly;
+  height: 20vh;
+  border-top: 3px solid #000000;
+}
